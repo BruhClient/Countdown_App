@@ -122,7 +122,7 @@ class _HomePageState extends State<HomePage> {
                                 fontFamily: "Rubik",
                                 color: Color.fromRGBO(255, 215, 154, 1),
                                 fontWeight: FontWeight.bold,
-                                fontSize: 18,
+                                fontSize: 12,
                                 letterSpacing: 0,
                               ),
                             ),
