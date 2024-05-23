@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:percent_indicator/circular_percent_indicator.dart';
 
 class InfoTile extends StatelessWidget {
   final IconData icon;
@@ -15,6 +16,9 @@ class InfoTile extends StatelessWidget {
   Widget build(BuildContext context) {
     return Expanded(
       child: ListTile(
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(10)
+        ),
         tileColor: const Color.fromRGBO(35, 35, 35, 1),
         title: Text(
           category,
